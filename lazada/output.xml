@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231106 17:56:54.210" rpa="false" schemaversion="4">
+<suite id="s1" name="Lazada" source="C:\Users\magma\OneDrive - Ngee Ann Polytechnic\Documents\NP\Y3Sem2\DEVOPS\Week4\Week4ex\DevOps_Oct2023_TeamE_Prac03\lazada">
+<suite id="s1-s1" name="Lazada" source="C:\Users\magma\OneDrive - Ngee Ann Polytechnic\Documents\NP\Y3Sem2\DEVOPS\Week4\Week4ex\DevOps_Oct2023_TeamE_Prac03\lazada\lazada.robot">
+<test id="s1-s1-t1" name="View Tissot Cheapest Watch" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${lazada_URL}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231106 17:56:54.500" level="INFO">Opening browser 'firefox' to base url 'https://www.lazada.sg/'.</msg>
+<status status="PASS" starttime="20231106 17:56:54.500" endtime="20231106 17:57:47.379"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>locator=q</arg>
+<arg>text=${my_Query}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231106 17:57:47.381" level="INFO">Typing text 'Classic Watch' into text field 'q'.</msg>
+<status status="PASS" starttime="20231106 17:57:47.380" endtime="20231106 17:57:47.732"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css = .search-box__button--1oH7</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20231106 17:57:47.733" level="INFO">Clicking button 'css = .search-box__button--1oH7'.</msg>
+<status status="PASS" starttime="20231106 17:57:47.732" endtime="20231106 17:58:30.967"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[2]/div/div[1]/div[2]/div/div/div/a[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 17:58:30.968" level="INFO">Clicking element 'xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[2]/div/div[1]/div[2]/div/div/div/a[3]'.</msg>
+<status status="PASS" starttime="20231106 17:58:30.968" endtime="20231106 17:58:31.438"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div[1]/a[3]/label/span[1]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 17:58:31.439" level="INFO">Clicking element 'xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[2]/div/div[2]/div[2]/div/div[1]/a[3]/label/span[1]/input'.</msg>
+<status status="PASS" starttime="20231106 17:58:31.438" endtime="20231106 17:59:14.690"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[1]/div[1]/div/div[2]/div/div[2]/div/div/span[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 17:59:14.690" level="INFO">Clicking element 'xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[1]/div[1]/div/div[2]/div/div[2]/div/div/span[2]'.</msg>
+<status status="PASS" starttime="20231106 17:59:14.690" endtime="20231106 17:59:15.020"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[6]/div/div/div/div[2]/div/div/div/div[2]/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 17:59:15.020" level="INFO">Clicking element 'xpath = /html/body/div[6]/div/div/div/div[2]/div/div/div/div[2]/div/div'.</msg>
+<status status="PASS" starttime="20231106 17:59:15.020" endtime="20231106 17:59:15.429"/>
+</kw>
+<kw name="Click Image" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[1]/div[3]/div[1]/div/div/div[1]/div/a/div/img</arg>
+<doc>Clicks an image identified by ``locator``.</doc>
+<msg timestamp="20231106 17:59:15.429" level="INFO">Clicking image 'xpath = /html/body/div[3]/div/div[2]/div[1]/div/div[1]/div[3]/div[1]/div/div/div[1]/div/a/div/img'.</msg>
+<status status="PASS" starttime="20231106 17:59:15.429" endtime="20231106 17:59:58.965"/>
+</kw>
+<doc>View the cheapest tissot watch.</doc>
+<status status="PASS" starttime="20231106 17:56:54.500" endtime="20231106 17:59:58.965"/>
+</test>
+<test id="s1-s1-t2" name="Check Scam FAQ" line="29">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${lazada_URL}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231106 17:59:58.970" level="INFO">Opening browser 'firefox' to base url 'https://www.lazada.sg/'.</msg>
+<status status="PASS" starttime="20231106 17:59:58.970" endtime="20231106 18:00:50.213"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[2]/div/div[1]/div/div/div[1]/div/div[4]/span</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 18:00:50.214" level="INFO">Clicking element 'xpath = /html/body/div[2]/div/div[1]/div/div/div[1]/div/div[4]/span'.</msg>
+<status status="PASS" starttime="20231106 18:00:50.214" endtime="20231106 18:00:50.562"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css = li.care-item:nth-child(1) &gt; a:nth-child(1) &gt; span:nth-child(1)</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 18:00:50.563" level="INFO">Clicking element 'css = li.care-item:nth-child(1) &gt; a:nth-child(1) &gt; span:nth-child(1)'.</msg>
+<status status="PASS" starttime="20231106 18:00:50.562" endtime="20231106 18:02:27.164"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = //*[@id="hq"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 18:02:27.165" level="INFO">Clicking element 'xpath = //*[@id="hq"]'.</msg>
+<status status="PASS" starttime="20231106 18:02:27.164" endtime="20231106 18:02:27.493"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath = //*[@id="hq"]</arg>
+<arg>text= Scam</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231106 18:02:27.493" level="INFO">Typing text ' Scam' into text field 'xpath = //*[@id="hq"]'.</msg>
+<status status="PASS" starttime="20231106 18:02:27.493" endtime="20231106 18:02:27.529"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>css = ._3X5JK</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20231106 18:02:27.529" level="INFO">Clicking button 'css = ._3X5JK'.</msg>
+<status status="PASS" starttime="20231106 18:02:27.529" endtime="20231106 18:04:03.393"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div/div[3]/div/div[1]/div[1]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231106 18:04:03.393" level="INFO">Clicking element 'xpath = /html/body/div[3]/div/div[3]/div/div[1]/div[1]/div[1]/a'.</msg>
+<status status="PASS" starttime="20231106 18:04:03.393" endtime="20231106 18:05:39.610"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20231106 18:05:39.617" endtime="20231106 18:05:42.543"/>
+</kw>
+<doc>Visit lazada help center and view the first article about scam</doc>
+<status status="PASS" starttime="20231106 17:59:58.970" endtime="20231106 18:05:42.549"/>
+</test>
+<doc>This is the documentation of the test cases suite.</doc>
+<status status="PASS" starttime="20231106 17:56:54.241" endtime="20231106 18:05:42.551"/>
+</suite>
+<status status="PASS" starttime="20231106 17:56:54.216" endtime="20231106 18:05:42.551"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Lazada">Lazada</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s1" name="Lazada">Lazada.Lazada</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
