@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231124 19:52:07.279" rpa="false" schemaversion="4">
+<suite id="s1" name="tpTestCases" source="c:\DevOps_Oct2023_TeamE_Prac03\tp\FindITCourse\tpTestCases.robot">
+<test id="s1-t1" name="Find Information Technology Course" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${TP_URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231124 19:52:07.552" level="INFO">Opening browser 'chrome' to base url 'https://www.tp.edu.sg/home.html'.</msg>
+<status status="PASS" starttime="20231124 19:52:07.539" endtime="20231124 19:52:11.670"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231124 19:52:11.672" endtime="20231124 19:52:11.784"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[2]/div[2]/div/div[1]/ul/li[1]/div[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231124 19:52:11.787" level="INFO">Clicking element 'xpath = /html/body/div[2]/div[2]/div/div[1]/ul/li[1]/div[1]'.</msg>
+<status status="PASS" starttime="20231124 19:52:11.785" endtime="20231124 19:52:11.869"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[2]/div[2]/div/div[1]/ul/li[1]/div[2]/div/div[1]/a[2]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231124 19:52:11.871" level="INFO">Clicking element 'xpath = /html/body/div[2]/div[2]/div/div[1]/ul/li[1]/div[2]/div/div[1]/a[2]'.</msg>
+<status status="PASS" starttime="20231124 19:52:11.871" endtime="20231124 19:52:13.156"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath = //*[@id="search-content-course"]</arg>
+<arg>text=Information Technology</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231124 19:52:13.163" level="INFO">Typing text 'Information Technology' into text field 'xpath = //*[@id="search-content-course"]'.</msg>
+<status status="PASS" starttime="20231124 19:52:13.161" endtime="20231124 19:52:13.323"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div[1]/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231124 19:52:13.324" level="INFO">Clicking element 'xpath = /html/body/div[3]/div[2]/div/div[3]/div/div[2]/div[1]/div[1]/div/div'.</msg>
+<status status="PASS" starttime="20231124 19:52:13.323" endtime="20231124 19:52:13.384"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[6]/div/div/div</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231124 19:52:13.386" level="INFO">Clicking element 'xpath = /html/body/div[6]/div/div/div'.</msg>
+<status status="PASS" starttime="20231124 19:52:13.385" endtime="20231124 19:52:13.562"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath = /html/body/div[3]/div[2]/div/div[3]/div/div[2]/div[3]/div[1]/div[1]/a/img</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231124 19:52:13.563" level="INFO">Clicking element 'xpath = /html/body/div[3]/div[2]/div/div[3]/div/div[2]/div[3]/div[1]/div[1]/a/img'.</msg>
+<status status="PASS" starttime="20231124 19:52:13.563" endtime="20231124 19:52:14.364"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231124 19:52:19.365" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20231124 19:52:14.364" endtime="20231124 19:52:19.365"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20231124 19:52:20.010" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20231124 19:52:19.369" endtime="20231124 19:52:20.010"/>
+</kw>
+<doc>Find the Information Technology Course for Prospective Students</doc>
+<status status="PASS" starttime="20231124 19:52:07.539" endtime="20231124 19:52:20.010"/>
+</test>
+<doc>This is the documentation of the test cases suite.</doc>
+<status status="PASS" starttime="20231124 19:52:07.283" endtime="20231124 19:52:20.010"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="tpTestCases">tpTestCases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
