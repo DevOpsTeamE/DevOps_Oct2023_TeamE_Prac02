@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231125 21:51:58.093" rpa="false" schemaversion="4">
+<suite id="s1" name="testCases" source="c:\Users\joshu\Documents\DevOps_Oct2023_TeamE_Prac03\tp\Centre and Adult Learner Course\testCases.robot">
+<test id="s1-t1" name="View Adult Learner Course" line="23">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231125 21:51:58.261" level="INFO">Opening browser 'chrome' to base url 'https://www.tp.edu.sg/home.html'.</msg>
+<status status="PASS" starttime="20231125 21:51:58.261" endtime="20231125 21:52:02.665"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231125 21:52:02.666" endtime="20231125 21:52:02.839"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231125 21:52:04.843" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20231125 21:52:02.841" endtime="20231125 21:52:04.843"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[2]/div[1]/div/nav/div[2]/div/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231125 21:52:04.844" level="INFO">Clicking element 'xpath=/html/body/div[2]/div[1]/div/nav/div[2]/div/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20231125 21:52:04.844" endtime="20231125 21:52:05.933"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[3]/div[1]/div/div[9]/div/div[5]/div/div/div/div/div/div/div/div[4]/div/div[1]/img</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20231125 21:52:05.937" endtime="20231125 21:52:06.225"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[3]/div[1]/div/div[9]/div/div[5]/div/div/div/div/div/div/div/div[1]/div/div[2]/div/div/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231125 21:52:06.225" level="INFO">Clicking element 'xpath=/html/body/div[3]/div[1]/div/div[9]/div/div[5]/div/div/div/div/div/div/div/div[1]/div/div[2]/div/div/a'.</msg>
+<status status="PASS" starttime="20231125 21:52:06.225" endtime="20231125 21:52:07.093"/>
+</kw>
+<kw name="Scroll Element Into View" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[3]/div[1]/div/div[8]/div/div/h3</arg>
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<status status="PASS" starttime="20231125 21:52:07.093" endtime="20231125 21:52:07.446"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=/html/body/div[3]/div[1]/div/div[6]/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231125 21:52:07.447" level="INFO">Clicking element 'xpath=/html/body/div[3]/div[1]/div/div[6]/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div[2]/div/div/a'.</msg>
+<status status="PASS" starttime="20231125 21:52:07.447" endtime="20231125 21:52:08.218"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20231125 21:52:08.736" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20231125 21:52:08.220" endtime="20231125 21:52:08.737"/>
+</kw>
+<doc>View Sustainable Cloud Solutions and Best Practices for Adult Learners</doc>
+<status status="PASS" starttime="20231125 21:51:58.261" endtime="20231125 21:52:08.738"/>
+</test>
+<doc>This is the documentation of the test cases suite.</doc>
+<status status="PASS" starttime="20231125 21:51:58.101" endtime="20231125 21:52:08.739"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testCases">testCases</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
