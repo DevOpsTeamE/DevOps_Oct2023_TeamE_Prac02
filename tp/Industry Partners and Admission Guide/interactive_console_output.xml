@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.6 on win32)" generated="20231129 23:03:28.482" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\xXjun\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Browser">
+<arg>${url}</arg>
+<arg>chrome</arg>
+<msg timestamp="20231129 23:03:29.054" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20231129 23:03:29.054" endtime="20231129 23:03:29.054"/>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" starttime="20231129 23:03:29.058" endtime="20231129 23:03:29.058"/>
+</kw>
+<kw name="Click Element">
+<arg>xpath=/html/body/div[2]/div[1]/div/nav/div[2]/div/ul/li[6]/a</arg>
+<status status="NOT RUN" starttime="20231129 23:03:29.058" endtime="20231129 23:03:29.058"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20231129 23:03:29.058" endtime="20231129 23:03:29.058"/>
+</kw>
+<kw name="Scroll Element Into View">
+<arg>xpath=/html/body/div[3]/div[1]/div/div[6]/div/div/h3</arg>
+<status status="NOT RUN" starttime="20231129 23:03:29.058" endtime="20231129 23:03:29.058"/>
+</kw>
+<kw name="Click Element">
+<arg>xpath=/html/body/div[3]/div[1]/div/div[5]/div/div/div/div/div[2]/div/a</arg>
+<status status="NOT RUN" starttime="20231129 23:03:29.058" endtime="20231129 23:03:29.058"/>
+</kw>
+<kw name="Capture Page Screenshot">
+<status status="NOT RUN" starttime="20231129 23:03:29.062" endtime="20231129 23:03:29.062"/>
+</kw>
+<status status="PASS" starttime="20231129 23:03:28.502" endtime="20231129 23:03:33.263"/>
+</kw>
+<status status="PASS" starttime="20231129 23:03:28.502" endtime="20231129 23:03:33.263"/>
+</test>
+<status status="PASS" starttime="20231129 23:03:28.482" endtime="20231129 23:03:33.267"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
